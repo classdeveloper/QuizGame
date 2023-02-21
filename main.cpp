@@ -29,6 +29,7 @@ int main() {
     cout << "Alternativa correta, você acertou em " + tentativas;
 
     cout << quiz[1];
+    cout << "\nSeletor: ";
     cin >> questao2;
 
     while (questao2 != 4) {
@@ -41,4 +42,3 @@ int main() {
     return 0;
 
 }
-
