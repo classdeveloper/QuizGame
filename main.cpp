@@ -37,12 +37,15 @@ int main() {
     quiz[9] = "“A professora pediu que abrissem os cadernos e escrevessem o ______.” A escrita correta da palavra e: \na) cabeçário \nb) cabeçalho \nc) cabessalho \nd) cabezalio \ne) cabeçalo\n";
 
 
-    std::cout << "1) Português" << std::endl;
+    std::cout << "1) Portugues" << std::endl;
+    std::cout << "2) Historia" << std::endl;
+    std::cout << "3) Literatura" << std::endl;
+    std::cin >> materia;
 
     switch (materia) {
         case 1:
 
-
+        
             break;
 
     }
