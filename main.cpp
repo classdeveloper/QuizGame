@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 int main() {
 
@@ -17,8 +16,9 @@ int main() {
     char questao10;
     char questao11;
     char questao12;
+    int materia;
 
-    string quiz[15];
+    std::string quiz[15];
 
     // QUESTÕES:
     // HISTORIA
@@ -37,140 +37,148 @@ int main() {
     quiz[9] = "“A professora pediu que abrissem os cadernos e escrevessem o ______.” A escrita correta da palavra e: \na) cabeçário \nb) cabeçalho \nc) cabessalho \nd) cabezalio \ne) cabeçalo\n";
 
 
+    std::cout << "1) Português" << std::endl;
 
-    cout << quiz[1];
-    cout << "\nSeletor: ";
-    cin >> questao1;
+    switch (materia) {
+        case 1:
+
+
+            break;
+
+    }
+    std::cout << quiz[1];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao1;
 
     while (questao1 != 'a') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[1];
-        cout << "\nSeletor: ";
-        cin >> questao1;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[1];
+        std::cout << "\nSeletor: ";
+        std::cin >> questao1;
 
     }
 
-    cout << "Alternativa correta\n";
+    std::cout << "Alternativa correta\n";
 
-    cout << quiz[2];
-    cout << "\nSeletor: ";
-    cin >> questao2;
+    std::cout << quiz[2];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao2;
 
     while (questao2 != 'd') {
 
-        cout << "Questao incorreta, tente novammente!\n";
-        cout << quiz[2];
-        cin >> questao2;
+        std::cout << "Questao incorreta, tente novammente!\n";
+        std::cout << quiz[2];
+        std::cin >> questao2;
 
     }
 
-    cout << "Alternativa correta\n";
+    std::cout << "Alternativa correta\n";
 
-    cout << quiz[3];
-    cout << "\nSeletor: ";
-    cin >> questao3;
+    std::cout << quiz[3];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao3;
 
     while (questao3 != 'b') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[3];
-        cout << "Seletor: ";
-        cin >> questao3;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[3];
+        std::cout << "Seletor: ";
+        std::cin >> questao3;
 
     }
 
-    cout << "Alternativa correta\n";
+    std::cout << "Alternativa correta\n";
 
-    cout << quiz[4];
-    cout << "\nSeletor: ";
-    cin >> questao4;
+    std::cout << quiz[4];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao4;
 
     while (questao4 != 'a') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[4];
-        cout << "\nSeletor: ";
-        cin >> questao4;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[4];
+        std::cout << "\nSeletor: ";
+        std::cin >> questao4;
 
     }
 
-    cout << "Alternativa correta\n";
+    std::cout << "Alternativa correta\n";
 
-    cout << quiz[5];
-    cout << "\nSeletor: ";
-    cin >> questao5;
+    std::cout << quiz[5];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao5;
 
     while (questao5 != 'b') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[5];
-        cout << "\nSeletor: ";
-        cin >> questao5;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[5];
+        std::cout << "\nSeletor: ";
+        std::cin >> questao5;
 
     }
 
-    cout << "Alternativa correta\n";
+    std::cout << "Alternativa correta\n";
 
-    cout << quiz[6];
-    cout << "\nSeletor: ";
-    cin >> questao6;
+    std::cout << quiz[6];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao6;
 
     while (questao6 != 'b') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[6];
-        cout << "\nSeletor: ";
-        cin >> questao6;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[6];
+        std::cout << "\nSeletor: ";
+        std::cin >> questao6;
 
     }
 
-    cout << "Alternativa correta!\n";
+    std::cout << "Alternativa correta!\n";
 
-    cout << quiz[7];
-    cout << "\nSeletor: ";
-    cin >> questao7;
+    std::cout << quiz[7];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao7;
 
     while (questao7 != 'e') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[7];
-        cout << "\nSeletor: ";
-        cin >> questao7;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[7];
+        std::cout << "\nSeletor: ";
+        std::cin >> questao7;
 
     }
 
-    cout << "Alternativa correta!\n";
+    std::cout << "Alternativa correta!\n";
 
-    cout << quiz[8];
-    cout << "\nSeletor: ";
-    cin >> questao8;
+    std::cout << quiz[8];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao8;
 
     while (questao8 != 'e') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[8];
-        cout <<  "\nSeletor: ";
-        cin >> questao8;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[8];
+        std::cout <<  "\nSeletor: ";
+        std::cin >> questao8;
 
     }
 
-    cout << "Alternativa correta!\n";
+    std::cout << "Alternativa correta!\n";
 
-    cout << quiz[9];
-    cout << "\nSeletor: ";
-    cin >> questao9;
+    std::cout << quiz[9];
+    std::cout << "\nSeletor: ";
+    std::cin >> questao9;
 
     while (questao9 != 'b') {
 
-        cout << "Questao incorreta, tente novamente!\n";
-        cout << quiz[9];
-        cout << "\nSeletor: ";
-        cin >> questao9;
+        std::cout << "Questao incorreta, tente novamente!\n";
+        std::cout << quiz[9];
+        std::cout << "\nSeletor: ";
+        std::cin >> questao9;
 
     }
 
-    cout << "Alternativa correta!\n";
+    std::cout << "Alternativa correta!\n";
 
     return 0;
 
